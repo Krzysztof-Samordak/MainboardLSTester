@@ -1,0 +1,72 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>_3ShapeMainboardLSTester</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Management" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Ivi.ACPwr.Interop">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\IVI Foundation\IVI\Bin\Primary Interop Assemblies\Ivi.ACPwr.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Ivi.ConfigServer.Interop">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\IVI Foundation\IVI\Bin\Primary Interop Assemblies\Ivi.ConfigServer.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Ivi.Counter.Interop">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\IVI Foundation\IVI\Bin\Primary Interop Assemblies\Ivi.Counter.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Ivi.DCPwr.Interop">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\IVI Foundation\IVI\Bin\Primary Interop Assemblies\Ivi.DCPwr.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Ivi.Digitizer.Interop">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\IVI Foundation\IVI\Bin\Primary Interop Assemblies\Ivi.Digitizer.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Ivi.Dmm.Interop">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\IVI Foundation\IVI\Bin\Primary Interop Assemblies\Ivi.Dmm.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Ivi.Downconverter.Interop">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\IVI Foundation\IVI\Bin\Primary Interop Assemblies\Ivi.Downconverter.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Ivi.Driver.Interop">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\IVI Foundation\IVI\Bin\Primary Interop Assemblies\Ivi.Driver.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Ivi.Fgen.Interop">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\IVI Foundation\IVI\Bin\Primary Interop Assemblies\Ivi.Fgen.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Ivi.LxiSync.Interop">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\IVI Foundation\IVI\Bin\Primary Interop Assemblies\Ivi.LxiSync.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Ivi.PwrMeter.Interop">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\IVI Foundation\IVI\Bin\Primary Interop Assemblies\Ivi.PwrMeter.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Ivi.RFSigGen.Interop">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\IVI Foundation\IVI\Bin\Primary Interop Assemblies\Ivi.RFSigGen.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Ivi.Scope.Interop">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\IVI Foundation\IVI\Bin\Primary Interop Assemblies\Ivi.Scope.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Ivi.SessionFactory.Interop">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\IVI Foundation\IVI\Bin\Primary Interop Assemblies\Ivi.SessionFactory.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Ivi.SpecAn.Interop">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\IVI Foundation\IVI\Bin\Primary Interop Assemblies\Ivi.SpecAn.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Ivi.Swtch.Interop">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\IVI Foundation\IVI\Bin\Primary Interop Assemblies\Ivi.Swtch.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Ivi.Upconverter.Interop">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\IVI Foundation\IVI\Bin\Primary Interop Assemblies\Ivi.Upconverter.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Ivi.Visa">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\IVI Foundation\VISA\Microsoft.NET\Framework64\v2.0.50727\VISA.NET Shared Components 5.11.0\Ivi.Visa.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
